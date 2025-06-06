@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resol Smart Tech Limited</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: #ffffff;
+      color: #333;
+    }
+    header {
+      background: #0057a3;
+      padding: 1.5rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #fff;
+    }
+    header nav a {
+      margin-left: 1.5rem;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .hero {
+      background: linear-gradient(to right, #0057a3, #0080c1);
+      color: #fff;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      padding: 0.8rem 1.5rem;
+      margin: 0.5rem;
+      background: #ffffff;
+      color: #0057a3;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    section {
+      padding: 3rem 2rem;
+    }
+    .services, .products, .projects, .training, .careers {
+      background-color: #f4f9ff;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+      padding: 2rem;
+    }
+    .section-title {
+      color: #0057a3;
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background: #0057a3;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    .contact {
+      background: #eef7ff;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+    .contact h3 {
+      color: #0057a3;
+    }
+    .contact p {
+      margin: 0.5rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Resol Smart Tech Ltd</strong></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#products">Products</a>
+      <a href="#projects">Projects</a>
+      <a href="#training">Training</a>
+      <a href="#careers">Careers</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Empowering Africa with Smart Energy</h1>
+    <p>Innovative solutions for homes, estates, industries, and commercial infrastructure.</p>
+    <button class="btn">Explore Our Services</button>
+    <button class="btn">Become a Partner</button>
+  </section>
+
+  <section id="about">
+    <h2 class="section-title">About Us</h2>
+    <p>Resol Smart Tech Limited is a fast-growing Nigerian engineering and technology company. We provide smart energy storage, automation, electrical wiring, and construction services across homes, businesses, and cities.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2 class="section-title">Our Services</h2>
+    <ul>
+      <li>Smart Energy Storage (Residential, Commercial, Industrial)</li>
+      <li>Electrical Engineering & Wiring</li>
+      <li>Smart Home & Office Automation</li>
+      <li>Building Construction & Estate Development</li>
+      <li>Architectural & Structural Engineering</li>
+      <li>Technical Training & Manpower Development</li>
+    </ul>
+  </section>
+
+  <section id="products" class="products">
+    <h2 class="section-title">Products</h2>
+    <ul>
+      <li>CYG PowerContainers (40ft)</li>
+      <li>CYG Home Battery Packs</li>
+      <li>Smart Switches, Meters & Controllers</li>
+      <li>Solar Panels, Inverters & Industrial UPS</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2 class="section-title">Projects Gallery</h2>
+    <p>Over 500 homes, commercial properties, and factories equipped with CYG ESS and smart automation in Abuja and beyond.</p>
+  </section>
+
+  <section id="training" class="training">
+    <h2 class="section-title">Training Programs</h2>
+    <ul>
+      <li>ESS Technician Training</li>
+      <li>Smart Wiring & Automation Certification</li>
+      <li>Project Management Courses</li>
+    </ul>
+  </section>
+
+  <section id="careers" class="careers">
+    <h2 class="section-title">Careers</h2>
+    <p>Join our team! We’re hiring engineers, technicians, business developers, and interns.</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h3>Contact Us</h3>
+    <p><strong>Head Office:</strong> Block C4, Suite 18, Commerce Plaza, Area 1, Garki, Abuja, Nigeria</p>
+    <p><strong>Mall Admin Office:</strong> ResolTech Mall Complex, Plot 12, Tech Lane, Apo Industrial Layout, Abuja</p>
+    <p><strong>Phone:</strong> 0805 256 9934 | 0708 165 6802 | 0817 816 5688</p>
+    <p><strong>Email:</strong> resolsmart@gmail.com</p>
+    <p><strong>Social:</strong> Twitter: @ResolSmart | Instagram: @resolsmart | YouTube: resolsmarttechltd</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Resol Smart Tech Limited. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
